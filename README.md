@@ -3,7 +3,9 @@ Consuming github api to see user information
 
 > Simple...
 
-Script building with python3. [Github-api](https://api.github.com)
+Script building with python3. 
+
+[Github-API](https://api.github.com)
 
 ## Require
 * requests
@@ -11,7 +13,7 @@ Script building with python3. [Github-api](https://api.github.com)
 
 ## Screenshot
 
-* __Main__
+ __Main__
 
 ![](./screenshots/main.png)
 ![](./screenshots/main2.png)
