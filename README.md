@@ -11,7 +11,7 @@ Script building with python3.
 * requests
 * json
 
-## Screenshot
+## Demo
 
  __Main__
 
