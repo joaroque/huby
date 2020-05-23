@@ -1,7 +1,8 @@
+#libs
 import requests
 import json
 
-
+#main
 class GithubGetInfo():
 
 	def __init__(self, user):
@@ -49,7 +50,7 @@ class GithubGetInfo():
             ( /  /( /  /( /  )( /  /
              /--/  /  /  /--<  (__/
             /  /_ (_,/_ /___/   _/_
-                               //
+                   V.1          //
                 by HaguacomH  (/
 		"""
 		print(banner)
