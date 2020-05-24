@@ -8,7 +8,7 @@ class GithubGetInfo():
 	def __init__(self, user):
 		self._user = user
 
-
+	#pegando o user
 	def get_repos(self):
 		re = requests.get(
 			f'https://api.github.com/users/{self._user}/repos')		
@@ -17,7 +17,7 @@ class GithubGetInfo():
 		else:
 			print("conexão impossivel")
 
-
+	#pegando os segudores
 	def get_followers(self):
 		re = requests.get(
 			f'https://api.github.com/users/{self._user}/followers')
@@ -25,7 +25,7 @@ class GithubGetInfo():
 			return re.json()
 		else:
 			return re.status_code
-
+	# mostrar o repositorio
 	def show_repos(self):
 		dados_api = self.get_repos()
 		if type(dados_api) is not int:
