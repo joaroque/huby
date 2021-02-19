@@ -15,7 +15,8 @@ class GithubGetInfo():
 		if re.status_code == 200:
 			return re.json()
 		else:
-			print("conexão impossivel")
+			print("Erro! Tente de novo.")
+			return re.status_code
 
 	#pegando os segudores
 	def get_followers(self):
