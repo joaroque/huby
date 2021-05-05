@@ -1,13 +1,11 @@
 # Hubby
-Consuming github api to see user information
 
-> Simple...
+> Consuming github api to see user information
 
-Script building with python3. 
-
+--
 [Github-API](https://api.github.com)
 
-## Require
+## Requiriments
 * requests
 * json
 
@@ -20,8 +18,8 @@ Script building with python3.
 
 ## Meta
 
-Joa Roque – [@joaroquedev](https://facebook.com/100025057463273) – haguacomh@gmail.com
+Joa Roque – [@joaroque](https://facebook.com/100025057463273) – haguacomh@gmail.com
 
-[Joa Roque](https://github.com/joaroquedev)
+[Joa Roque](https://github.com/joaroque)
 
-[Programadore Angolano](https://www.programadorangolano.com)
+[Programadore Angolano](https://pangolano.github.io)
